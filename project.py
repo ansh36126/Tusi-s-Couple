@@ -8,7 +8,7 @@ pygame.display.set_caption("Tusi Couple(Mini project)")
 running = True
 
 # parameters
-N = 2
+N = 6
 R = 150
 A = R
 spacing =  math.pi / N          
@@ -43,5 +43,6 @@ while running:
 
     pygame.display.flip()
     clock.tick(60)
+
 
 pygame.quit()
